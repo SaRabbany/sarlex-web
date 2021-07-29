@@ -837,3 +837,111 @@ footer{
 
  
 }
+
+
+
+
+
+
+// service page css
+.service-hero{
+  padding-top: 180px;
+  margin-bottom: 50px;
+  .container{
+    .row{
+      background-color: #ffc5aa;
+      padding: 20px 20px;
+      border-radius: 15px;
+      h1{
+        color: #33475b;
+        font-size: 40px;
+        font-weight: 700;
+      }
+      p{
+        font-weight: 400;
+        font-size: 18px;
+        color:#33475b;
+        margin-top: 20px;
+      }
+      img{
+        width:100%;
+      }
+
+       .common-button{
+         margin-top: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    color:#ffffff;
+    background-color: #ff7a59;
+    padding: 10px 25px;
+    border-radius: 15px;
+  } 
+  .common-button:hover{
+    background-color: #ff6529;
+    color:white;
+  }
+         .common-button-sub{
+    font-size: 18px;
+    font-weight: 500;
+    color:#000000;
+    background-color: #ffa088;
+    padding: 10px 25px;
+    border-radius: 15px;
+    margin-right: 10px;
+  }
+    }
+  }
+}
+
+.service-card{
+  margin-bottom: 50px;
+  h1{
+    color:#33475b;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+  }
+  .row{
+    margin-top: 30px; 
+    .col{
+      padding: 15px;
+       border-radius: 15px;
+
+      .card{
+        border: none !important;
+       
+        //padding: 20px 30px;
+       .card-header{
+         //padding: 20px;
+         border: none !important;
+         border-radius: 15px;
+       }
+       .card-body{
+         border-radius: 0 0 15px 15px;
+         padding: 20px 15px;
+         h2{
+           text-align: center;
+           font-weight: 700;
+           font-size: 24px;
+           color: #33475b;
+           padding: 20px 0;
+         }
+          p{
+        font-weight: 400;
+        font-size: 16px;
+        color:#33475b;
+        margin-top: 20px;
+      }
+      a{
+        font-size: 18px; 
+           font-weight: 500;
+            color: #33475b;
+            background-color: #ffffff7e; 
+               padding: 10px 25px;
+                border-radius: 15px;
+      }
+       }
+      }
+    }
+  }
+}

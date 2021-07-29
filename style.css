@@ -866,4 +866,115 @@ footer .footer-bottom p {
     display: block;
   }
 }
+
+.service-hero {
+  padding-top: 180px;
+  margin-bottom: 50px;
+}
+
+.service-hero .container .row {
+  background-color: #ffc5aa;
+  padding: 20px 20px;
+  border-radius: 15px;
+}
+
+.service-hero .container .row h1 {
+  color: #33475b;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.service-hero .container .row p {
+  font-weight: 400;
+  font-size: 18px;
+  color: #33475b;
+  margin-top: 20px;
+}
+
+.service-hero .container .row img {
+  width: 100%;
+}
+
+.service-hero .container .row .common-button {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff;
+  background-color: #ff7a59;
+  padding: 10px 25px;
+  border-radius: 15px;
+}
+
+.service-hero .container .row .common-button:hover {
+  background-color: #ff6529;
+  color: white;
+}
+
+.service-hero .container .row .common-button-sub {
+  font-size: 18px;
+  font-weight: 500;
+  color: #000000;
+  background-color: #ffa088;
+  padding: 10px 25px;
+  border-radius: 15px;
+  margin-right: 10px;
+}
+
+.service-card {
+  margin-bottom: 50px;
+}
+
+.service-card h1 {
+  color: #33475b;
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+}
+
+.service-card .row {
+  margin-top: 30px;
+}
+
+.service-card .row .col {
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.service-card .row .col .card {
+  border: none !important;
+}
+
+.service-card .row .col .card .card-header {
+  border: none !important;
+  border-radius: 15px;
+}
+
+.service-card .row .col .card .card-body {
+  border-radius: 0 0 15px 15px;
+  padding: 20px 15px;
+}
+
+.service-card .row .col .card .card-body h2 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 24px;
+  color: #33475b;
+  padding: 20px 0;
+}
+
+.service-card .row .col .card .card-body p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #33475b;
+  margin-top: 20px;
+}
+
+.service-card .row .col .card .card-body a {
+  font-size: 18px;
+  font-weight: 500;
+  color: #33475b;
+  background-color: #ffffff7e;
+  padding: 10px 25px;
+  border-radius: 15px;
+}
 /*# sourceMappingURL=style.css.map */
