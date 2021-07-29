@@ -752,6 +752,7 @@ footer .footer-top {
   background-color: #f2f5f6;
   border-bottom: 2px solid #9e9e9e;
   padding-top: 50px;
+  padding-bottom: 20px;
 }
 
 footer .footer-top img {
@@ -768,9 +769,8 @@ footer .footer-top h2 {
 footer .footer-top h3 {
   padding: 10px 0;
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 500;
   color: #33475b;
-  border-bottom: 5px solid #33475b;
 }
 
 footer .footer-top p {
@@ -778,7 +778,7 @@ footer .footer-top p {
   color: #33475b;
   font-size: 15px;
   text-align: justify;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 footer .footer-top ul {
@@ -792,7 +792,7 @@ footer .footer-top ul li {
 footer .footer-top ul li a {
   color: #33475b;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 footer .footer-top ul li a:hover {
@@ -807,7 +807,7 @@ footer .footer-top .footer-info i {
 
 footer .footer-top .footer-info a {
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 400;
   color: #33475b;
 }
 
@@ -818,7 +818,7 @@ footer .footer-top .footer-info a:hover {
 footer .footer-top .social-icons i {
   margin-top: 15px;
   padding-right: 20px;
-  font-size: 24px;
+  font-size: 22px;
   color: #33475b;
 }
 
@@ -852,6 +852,18 @@ footer .footer-bottom p {
   }
   .project .row {
     margin-top: 50px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .intro .row .card {
+    height: auto;
+  }
+  .pc-view {
+    display: none;
+  }
+  .project-mobile-view {
+    display: block;
   }
 }
 /*# sourceMappingURL=style.css.map */
