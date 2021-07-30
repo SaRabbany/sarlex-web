@@ -977,4 +977,353 @@ footer .footer-bottom p {
   padding: 10px 25px;
   border-radius: 15px;
 }
+
+.about-hero {
+  padding-top: 180px;
+  margin-bottom: 50px;
+}
+
+.about-hero .container .row {
+  background-color: #c7c7ff;
+  padding: 20px 20px;
+  border-radius: 15px;
+}
+
+.about-hero .container .row h1 {
+  color: #33475b;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.about-hero .container .row p {
+  font-weight: 400;
+  font-size: 18px;
+  color: #33475b;
+  margin-top: 20px;
+}
+
+.about-hero .container .row img {
+  width: 100%;
+}
+
+.about-hero .container .row .common-button {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff;
+  background-color: #6666FF;
+  padding: 10px 25px;
+  border-radius: 15px;
+}
+
+.about-hero .container .row .common-button:hover {
+  background-color: #2929CC;
+  color: white;
+}
+
+.about-hero .container .row .common-button-sub {
+  font-size: 18px;
+  font-weight: 500;
+  color: #000000;
+  background-color: #a2a2f7;
+  padding: 10px 25px;
+  border-radius: 15px;
+  margin-right: 10px;
+}
+
+.experience {
+  margin-top: 100px;
+}
+
+.experience h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #33475b;
+}
+
+.experience p {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.experience .Experience-progress label {
+  font-weight: 700;
+  font-size: 18px;
+  color: #33475b;
+}
+
+.experience .Experience-progress p {
+  background-color: #4DE0D3;
+  padding: 10px;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.experience .Experience-progress .progress {
+  margin-bottom: 20px;
+}
+
+.project-count {
+  margin: 60px 0;
+}
+
+.project-count p {
+  color: #33475b;
+  font-size: 16px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.project-count h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #33475b;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.project-count .count {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.project-count .count span {
+  font-size: 36px;
+  font-weight: 700;
+  color: #33475b;
+}
+
+.project-count .count i {
+  display: block;
+  font-size: 25px;
+  width: 80px;
+  line-height: 80px;
+  margin: 0 auto;
+  border-radius: 8px;
+  color: #57A6FF;
+  height: 80px;
+  background-color: rgba(87, 166, 255, 0.15);
+}
+
+.team {
+  background-color: rgba(246, 248, 249, 0.82);
+  padding: 100px 0;
+}
+
+.team h3 {
+  font-weight: 500;
+  font-size: 16px;
+  color: #33475b;
+  text-align: center;
+}
+
+.team h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #33475b;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.team .profile-view {
+  margin-top: 20px;
+  height: 300px;
+  position: relative;
+}
+
+.team .image {
+  border-radius: 20px;
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.team .middle {
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.team .profile-view:hover .image {
+  opacity: 0.3;
+}
+
+.team .profile-view:hover .middle {
+  opacity: 1;
+}
+
+.team .text {
+  background-color: #ffc582a4;
+  color: #33475b;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 16px 10px;
+  border-radius: 10px;
+}
+
+.team i {
+  color: #33475b;
+  padding: 5px;
+}
+
+.web-development-hero {
+  padding-top: 180px;
+  margin-bottom: 50px;
+}
+
+.web-development-hero .container .row {
+  background-color: #c7c7ff;
+  padding: 20px 20px;
+  border-radius: 15px;
+}
+
+.web-development-hero .container .row h1 {
+  color: #33475b;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.web-development-hero .container .row p {
+  font-weight: 400;
+  font-size: 18px;
+  color: #33475b;
+  margin-top: 20px;
+}
+
+.web-development-hero .container .row img {
+  width: 100%;
+}
+
+.web-development-hero .container .row .common-button {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff;
+  background-color: #ff8438;
+  padding: 10px 25px;
+  border-radius: 15px;
+}
+
+.web-development-hero .container .row .common-button:hover {
+  background-color: #ff6200;
+  color: white;
+}
+
+.web-development-hero .container .row .common-button-sub {
+  font-size: 18px;
+  font-weight: 500;
+  color: #000000;
+  background-color: #ff843886;
+  padding: 10px 25px;
+  border-radius: 15px;
+  margin-right: 10px;
+}
+
+.development-elements {
+  margin-top: 100px;
+}
+
+.development-elements h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #33475b;
+}
+
+.development-elements p {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.development-elements .card {
+  text-align: center;
+  border: none;
+  padding: 10px;
+}
+
+.development-elements .card i {
+  padding: 30px;
+  border-radius: 30%;
+  color: #ffffff;
+  font-size: 24px;
+}
+
+.development-elements .card h5 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #33475b;
+}
+
+.development-elements .card .icon-1 {
+  background-image: -webkit-gradient(linear, left top, right top, from(#9ccdfe), to(#94aafd));
+  background-image: linear-gradient(90deg, #9ccdfe 0%, #94aafd 100%);
+}
+
+.development-elements .icon-2 {
+  background-image: -webkit-gradient(linear, left top, right top, from(#f2a7ca), to(#c289f4));
+  background-image: linear-gradient(90deg, #f2a7ca 0%, #c289f4 100%);
+}
+
+.development-elements .icon-3 {
+  background-image: -webkit-gradient(linear, left top, right top, from(#a1ecff), to(#7dbcff));
+  background-image: linear-gradient(90deg, #a1ecff 0%, #7dbcff 100%);
+}
+
+.icon-4 {
+  background-image: -webkit-gradient(linear, left top, right top, from(#ffc187), to(#fe93a7));
+  background-image: linear-gradient(90deg, #ffc187 0%, #fe93a7 100%);
+}
+
+.web-develop-content {
+  background-color: #f2f4f5;
+  padding: 70px 0;
+}
+
+.web-develop-content h1 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #33475b;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.web-develop-content .row {
+  margin-top: 30px;
+}
+
+.web-develop-content .row h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #33475b;
+}
+
+.web-develop-content .row p {
+  text-align: justify;
+  font-weight: 400;
+  font-size: 16px;
+  color: #33475b;
+}
+
+.web-develop-content .row a {
+  color: #33475b;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.web-develop-content .row a:hover {
+  color: #ff6529;
+}
 /*# sourceMappingURL=style.css.map */
